@@ -1,0 +1,1 @@
+package forLab06;public class RuntimeStack {  	public static void main (String args[]) {		Example e = new Example();		e.cMethod(25,"Computer Science");	}//main}//RuntimeStack
