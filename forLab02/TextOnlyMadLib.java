@@ -1,7 +1,9 @@
-package forLab02;
+// package forLab02;
 
 //Program for Lab 02 
 // Author: Barbara Li Santi
+// Revised by: Laureli M
+// Revision date: 2014
 
 
 import java.util.Scanner;
@@ -11,8 +13,9 @@ public class TextOnlyMadLib {
 	private static Scanner myScanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		String noun1, noun2, noun3, noun4, noun5, noun6;
+		String noun1, noun2, noun3, noun4, noun5, noun6, noun7;
 		String adj1, adj2, adj3, adj4, adj5, adj6, adj7;
+		String verb;
 		String container;
 		String pastTenseVerb;
 		String pluralNoun;
@@ -52,6 +55,11 @@ public class TextOnlyMadLib {
 		pastTenseVerb = myScanner.nextLine();
 		System.out.println("Please enter a plural noun.");
 		pluralNoun = myScanner.nextLine();
+		System.out.println("Please enter noun #7.");
+		noun7 = myScanner.nextLine();
+		System.out.println("Please enter a verb.");
+		verb = myScanner.nextLine();
+		
 
 		System.out.println("\n\nFather Goose Rhymes\n\n");
 		System.out.println("Old Mother Hubbard went to the " + noun1 + "\n");
@@ -73,7 +81,9 @@ public class TextOnlyMadLib {
 		System.out.println("There was a/an " + adj7 + " woman\n");
 		System.out.println("who " + pastTenseVerb + " in a shoe.\n");
 		System.out.println("She had so many " + pluralNoun + "\n");
+		System.out.println("She " + noun7 + " "+ verb + ".\n");
 		System.out.println("She didn't know what to do.\n");
+		
 	}//main
 
 }//TextOnlyMadLib
